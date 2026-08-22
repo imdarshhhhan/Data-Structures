@@ -1,7 +1,7 @@
 public class smallest_number {
        static int get_smallest(int arr[]){
          int smallest = Integer.MAX_VALUE;    //+ infinity
-        for(int i=0;i<arr.length;i++){
+        for(int i=0; i <arr.length; i++){
             if(smallest>arr[i]){
             smallest = arr[i];
             }
