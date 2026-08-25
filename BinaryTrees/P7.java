@@ -38,7 +38,7 @@ public class P7 {
         root.right.left = new Node(6);
         root.right.right = new Node(7);
 
-        //root.left.left.left = new Node(100);
+        root.left.left = new Node(7);
         System.out.println(isBalanced(root));
     }
 }
